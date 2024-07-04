@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Filterable Table</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div>
+<h2>Dynamic Filterable Table</h2>
+</div>
+
+
+
+<div class="filter-container" id="filters"> 
+</div>
+
+<div class="button-container">
+    <button id="filterButton">Filter</button>
+    <button onclick="clearFilters()">Clear Filters</button>
+</div>
+
+<table id="data-table">
+    <thead>
+        <tr id="table-headers">
+        </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
